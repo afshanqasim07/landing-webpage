@@ -56,4 +56,9 @@
        margin-left: 1.5rem;
     }
 }
-   
+   .bgone{
+    background-color: rgb(81,86,3);
+   }
+   .bgtwo{
+    background-color: rgb(114,35,0);
+   }

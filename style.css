@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.text{
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+/* Styles for tablets (768px to 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .text {
+        font-size: 3rem;
+        top: 8rem;
+        left: 8rem;
+    }
+}
+
+/* Styles for mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
+    .text {
+        font-size: 1rem;
+        top: 3rem;
+        left: 5rem;
+    }
+}
